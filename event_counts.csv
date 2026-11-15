@@ -1,0 +1,6 @@
+event_type,count
+abandoned_queue,68533
+cancelled_by_rider,16712
+failed_no_charged_battery,134389
+failed_system_error,11570
+swap_completed,3645809
