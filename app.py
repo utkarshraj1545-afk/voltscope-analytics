@@ -532,7 +532,7 @@ with st.sidebar.expander("Data location", expanded=False):
 
 
 # ---------------- DEPLOYMENT DATA LOADING ----------------
-DATA_DIR = Path(__file__).resolve().parent / "data"
+DATA_DIR = Path(__file__).resolve().parent
 
 try:
     stations = pd.read_csv(DATA_DIR / "stations.csv")
